@@ -2,6 +2,7 @@
 
 ## Prerequisites
 
+Clone the repo
 Make sure you have all the dependencies installed:
 
 ### Debian / Ubuntu
