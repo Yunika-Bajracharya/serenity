@@ -274,11 +274,11 @@ void Game::game_over()
     StringBuilder text;
     text.appendff("Your score was {}", m_score);
     if (m_is_new_high_score) {
-        text.append("\nThat's a new high score!"sv);
+        text.append("\nYay! That's a new high score :D"sv);
     }
     GUI::MessageBox::show(window(),
         text.to_deprecated_string(),
-        "Game Over"sv,
+        "Sorry, Game Over"sv,
         GUI::MessageBox::Type::Information);
 
     reset();
